@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  background-color: #1e293b;
+  align-items: center;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  background-color: #e2e8f0;
+  color: #1e293b;
+}
+
+.nav-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.primary:hover {
+  background-color: #2563eb;
+}
+
+.success {
+  background-color: #10b981;
+  color: white;
+}
+
+.success:hover {
+  background-color: #059669;
+}
+
+.content {
+  padding: 20px;
+}
